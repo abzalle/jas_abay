@@ -1,0 +1,18 @@
+@media (max-width: 320px) {
+    h1 {
+        font-size: 24px
+    }
+}
+/* Max-width 1200px and Min-width 320px */
+@media (max-width: 1200px) and (min-width: 321px) {
+    h1 {
+        /* 30px - 24px */
+        font-size: calc(2.5rem + 10 * (100vw - 320px) / 880);
+    }
+}
+/* Min-width 1200px */
+@media (min-width: 1201px) {    
+    h1 {
+        font-size: 80px;
+    }
+}
