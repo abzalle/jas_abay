@@ -16,3 +16,14 @@
         font-size: 80px;
     }
 }
+
+
+@media (max-width: 320px){
+    .slide-items{
+        display: block;
+        text-align: center;
+    }
+    .slide-item__text{
+        margin: 0 auto
+    }
+}

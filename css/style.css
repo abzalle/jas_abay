@@ -226,3 +226,83 @@ h1 {
     display: none;
     }
   }
+
+  @media screen and (max-width: 768px){
+    .header{
+      background-image: url(/img/mobile-bg.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      height: 100%;   
+    }
+  }
+
+
+.slide{
+  max-width: 1274px;
+  background-color: #08254F;
+  margin: 0 auto;
+  border-radius: 40px;
+
+}
+
+.carousel-inner{
+  max-width: 1274px;
+  border-radius: 40px;
+}
+
+
+.slide1-title{
+  padding-top: 30px;
+  text-align: center;
+  /* font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* линейный градиент, слева на право, 3 цвета */
+  background-image: linear-gradient(75deg, #FFA03C 0%, #CC6140 100%);
+  /* обрезаем фон по тексту */
+  -webkit-background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный что бы можно было увидеть градиент*/
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  display: none;
+}
+
+
+
+.slide-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.slide-item__text{
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 200px ;
+  padding-bottom: 70px;
+}
+
+
+.slide2-items{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+
+
+.slide2-item__img img{
+  max-width: 400px;
+  border-radius: 20px;
+}
+
