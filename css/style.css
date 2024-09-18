@@ -107,8 +107,14 @@ h1 {
 .petedsa_lopdsan{
     max-width: 1120px;
     width: 100%;
-    padding: 40px 0;
+    padding-bottom: 40px;
+    margin-top: -35px;
   }
+
+  .slider-title{
+
+  }
+
   .slide-content{
     margin: 0 40px;
     overflow: hidden;
@@ -271,6 +277,10 @@ h1 {
 .carousel-control-next-icon, .carousel-control-prev-icon{
   display: none;
 }
+.button{
+  display: none;
+}
+
 
 
 
@@ -278,18 +288,26 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
+
+}
+
+.slide-item__subtitle{
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 200px;
 }
 
 .slide-item__text{
   color: #fff;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
   text-align: center;
   max-width: 200px ;
   padding-bottom: 70px;
 }
-
 
 .slide2-items{
   display: flex;
@@ -306,3 +324,237 @@ h1 {
   border-radius: 20px;
 }
 
+.achivm{
+  background-image: linear-gradient(rgba(8, 37, 79, 0.5), rgba(8, 37, 79, 0.5)), url(./../img/results-bg.jpg);
+  background-position: top;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  margin-top: 60px;
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  color: #08254F;
+}
+
+.achiv-title{
+  font-size: 32px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.col1{
+  color: #08254F;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 550px;
+}
+.col{
+  color: #08254F;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.col1-text{
+  margin-top: -20px;
+}
+
+
+
+
+
+.achiv-title__numbers{
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+}
+
+.achiv-title__numbers span{
+  color: #FF4343;
+}
+
+.col2{
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 350px;
+}
+
+.col2-years{
+  font-size: 30x;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 700;
+}
+.students{
+  display: flex;
+  justify-content: space-around;
+}
+
+.students-1{
+  border-right: 2px solid #000;
+}
+
+.students-1 , .students-2{
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black;
+  max-width: 178px;
+  width: 100%;
+
+}
+
+.students-1 span , .students-2 span{
+  font-size: 32px;
+  color:#FF4343
+}
+
+.row1{
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.row2{
+  margin-top: 50px;
+}
+
+.col3{
+  max-width: 450px;
+  width: 100%;
+}
+
+.test{
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.test-left{
+  max-width: 210px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.test-right__text{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.361);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+
+.test-right__text span{
+  color: #FF4343;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.row3{
+  margin-top: 50px;
+
+}
+.col4{
+  max-width: 370px;
+  width: 100%;
+}
+
+.score{
+  padding: 33px;
+  font-weight: 700;
+}
+
+.score span{
+  color:#FF4343
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacts{
+  background-color: #08254F;
+  max-width: 1280px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(31, 100%, 62%);
+  font-weight: bolder;
+}
+
+.contacts-title{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: hsl(31, 100%, 62%);
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.contacts-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts-form__wrapper{
+  text-align: center;
+  padding-bottom: 45px;
+}
+input{
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  max-height: 90px;
+  height: 90px;
+  border-radius: 135px;
+}
+
+.tel{
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+}
+
+.submit{
+  margin-top: 40px;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+  background-color: #FF7146;
+  color: #08254F;
+}
+
+.soc{
+  width: 35px;
+}
+
+
+
+footer{
+  font-size: 20px;
+  color:#FFA03C;
+
+}
+
+svg{
+  color:#FFA03C;
+
+}
