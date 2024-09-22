@@ -58,7 +58,24 @@
     .nav-img {
         width: 250px;
     }
+    .slide-items {
+        display: block;
+        text-align: center;
+    }
 }
+
+/* @media (max-width: 550px){
+    .slide-items {
+        display: block;
+        text-align: center;
+    }
+
+    .slide-item{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+} */
 
 @media (max-width: 425px) {
     .contacts-line {
@@ -75,5 +92,14 @@
 
     .adress {
         padding-bottom: 40px;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    
+    .map-responsive iframe{
+        width: 100%;
     }
 }
